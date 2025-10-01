@@ -22,9 +22,9 @@ export default function App() {
 					</Route>
 					<Route element={<ProtectedRoute />}>
 						<Route path="profile" element={<Profile />} />
-						<Route path="profile-setup" element={<ProfileSetup />} />
 						<Route path="blog/create" element={<BlogCreate />} />
 					</Route>
+					<Route path="profile-setup" element={<ProfileSetup />} />
 				</Route>
 			</Routes>
 		</>
